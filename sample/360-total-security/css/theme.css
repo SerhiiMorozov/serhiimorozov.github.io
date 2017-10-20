@@ -25,8 +25,7 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  /* color: #3bc3ab; */
-  color: #0fcf89;
+  color: #3bc3ab;
 
   /* Better Font Rendering */
   -webkit-font-smoothing: antialiased;
@@ -35,9 +34,6 @@
 
 .fa-windows {
   color: #00adef;
-}
-.windows-premium {
-    color: #fff;
 }
 .fa-android {
   color: #94c147;
@@ -75,8 +71,7 @@ a {
 }
 hr {
   max-width: 50px;
-  /* border-color: #3bc3ab; */
-  border-color: #0fcf89;
+  border-color: #3bc3ab;
   border-width: 3px;
 }
 
@@ -340,12 +335,11 @@ hr {
     }
 .intro-section-image {
     max-width: 100%;
-    padding: 0 60px 10px 60px;
     height: auto;
     display: none;
     }
 .intro-windows-android-wrapper {
-    margin: 20px 0 0 0;
+    margin: 30px 0 0 0;
     }
 .intro-windows {
     width: 50%;
@@ -372,12 +366,12 @@ hr {
 		transform: translateY(-50%);
 	}
 	.intro-section .intro-section-content-wrapper .intro-section-content {
-		width: 65%;
+		width: 85%;
 		margin-right: auto;
 		margin-left: auto;
 	}
 	.intro-section .intro-section-content-wrapper .intro-section-content p {
-    width: 95%;
+    width: 65%;
     margin: 0 auto 0 auto;
     font-size: 17px;
     font-weight: 300;
@@ -413,8 +407,7 @@ hr {
     margin: 12% 32% 12% 32%;
     padding: 6%;
     border-radius: 300px;
-    /* background-color: #3bc3ab; */
-    background-color: #0fcf89;
+    background-color: #3bc3ab;
     }
 
 /* World Section
@@ -459,9 +452,6 @@ hr {
     }
 .table-annotation {
 	text-align: left;
-}
-.img-prew {
-    padding: 5px;
 }
 
 /* Reviews Section
@@ -508,8 +498,7 @@ hr {
     width: 100%;
 }
 .testimonials-name {
-    /* color: #3bc3ab; */
-    /* color: #0fcf89; */
+    color: #3bc3ab;
     font-size: 16px;
     font-weight: 600;
     margin: 10px 0 0 0;
@@ -549,8 +538,7 @@ hr {
     position: absolute;
     border-style: solid;
     border-width: 20px 20px 0 0;
-    /* border-color: #3bc3ab transparent transparent transparent; */
-    border-color: #0fcf89 transparent transparent transparent;
+    border-color: #3bc3ab transparent transparent transparent;
     }
 
 
@@ -560,7 +548,7 @@ hr {
  * ------------------------------------------------------------------------
  */
 .btn {
-    padding: 8px 22px 8px 20px;
+    padding: 12px 22px 12px 20px;
     margin: 20px 0 0 0;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -572,15 +560,13 @@ hr {
     }
 .btn-premium:hover {
     box-shadow: 0 8px 24px rgba(0,0,0,.4);
-    /* background-color: #1d8270; */
-    background-color: #0c9f6a;
+    background-color: #1d8270;
     color: #fff;
     }
 .btn i {
     float: left;
     font-size: 42px;
     margin-right: 10px;
-    margin-top: 5px;
     }
 .btn i.arrow {
     font-size: 16px;
@@ -590,7 +576,7 @@ hr {
 .btn-text {
     float: left;
     text-align: left;
-    margin-top: 0;
+    margin-top: 5px;
     }
 .btn-text span {
     font-size: 16px;
@@ -599,35 +585,17 @@ hr {
     text-align: left;
     line-height: 1;
     }
-.text-premium span {
-    font-weight: 500;
-    }
 .btn-intro {
     margin: 10px 0 0 0;
+    }
+.btn-premium {
+    background-color: #3bc3ab;
+    color: #fff;
     }
 .btn-premium i.arrow {
     color: #fff;
     }
-    
-.btn-windows, .btn-android, .btn-ios {
-    border-width: 1px;
-    }
-.btn-windows {
-    border-color: #00adef;
-    }
-.btn-android {
-    border-color: #94c147;
-    }
-.btn-ios {
-    border-color: #acacac;
-    }
-.btn-premium {
-    position: relative;
-    /* background-color: #3bc3ab; */
-    background-color: #0fcf89;
-    color: #fff;
-    border: 1px solid rgba(12, 159, 106, 0.7);
-    }
+
 
 /*
  * ------------------------------------------------------------------------
@@ -642,14 +610,13 @@ hr {
 
 /* table */
 table.rg-table {
-    position: relative;
     width: 100%;
     margin: 24px 0 0 0;
     border-collapse: collapse;
     border-spacing: 0;
     }
 table.rg-table * {
-    /* margin: 0; */
+    margin: 0;
     text-align: center;
     }
 table.rg-table thead {
@@ -681,25 +648,8 @@ table.rg-table th.number, td.number {
     text-align: right;
     }
 table.rg-table tbody tr td:first-child {
-    text-align: left;
-    }
-
-.old-price {
-    font-size: 13px;
-    color: red;
-    text-decoration: line-through;
-}
-.new-price {
-}
-.money-back {
-    position: absolute;
-    top: -50px;
-    right: -45px;
-    width: 90px;
-}
-.col-width {
-    width: 20%;
-}
+        text-align: left;
+        }
 
 /* media queries */
 @media screen and (max-width: 991px) {
@@ -735,7 +685,6 @@ table.rg-table tbody tr td:first-child {
         }
     table.rg-table tbody tr td:first-child {
         text-align: center;
-        font-weight: 500;
         }
     table.rg-table tr, table.rg-table th, table.rg-table td {
         display: block;
@@ -752,7 +701,8 @@ table.rg-table tbody tr td:first-child {
         padding: 0.5em 0 0.5em 0;
         border-bottom: 1px dotted #ccc;
         text-align: right;
-        font-size: 15px;
+        font-size: 17px;
+        font-weight: 500;
         }
     table.rg-table td[data-title]:before {
         content: attr(data-title);
@@ -773,15 +723,6 @@ table.rg-table tbody tr td:first-child {
     table.rg-table .highlight td {
         background: none;
         }
-    .col-width {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 758px) {
-    .btn {
-        margin: 20px 0 20px 0;
-    }
 }
 
 
@@ -817,102 +758,3 @@ table.rg-table tbody tr td:first-child {
 .footer p {
     margin: 10px 0 0 0;
     }
-
-.jsa {
-  cursor: pointer;
-}
-/*
- * ------------------------------------------------------------------------
- * Modal 
- * ------------------------------------------------------------------------
- */
-.modal-layout {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 5;
-}
-.modal-wrapper {
-  background: rgba(255, 255, 255, 1);
-  color: #000;
-  position: relative;
-  top: 70px;
-  margin: 0 auto;
-  width: 80%;
-  max-width: 1000px;
-  overflow: hidden;
-  padding: 40px 50px;
-  font-size: 13px;
-  line-height: 18px;
-}
-.modal-header, .modal-header-2 {
-  color: #448DD0;
-}
-.modal-header {
-  font-size: 25px;
-}
-.modal-header-2 {
-  font-size: 18px;
-}
-.app-item {
-  width: 31%;
-  position: relative;
-  float: left;
-  margin: 15px 1% 20px;
-  text-align: center;
-}
-.app-item-title {
-  font-size: 18px;
-}
-.app-icon {
-  width: 128px;
-  height: 128px;
-  display: block;
-  margin: 0 auto 15px;
-}
-.app-download {
-  color: #FFF;
-  width: 170px;
-  height: 56px;
-  border: 2px solid #FFF;
-  box-shadow: 0 0 1px #000;
-  display: block;
-  margin: 10px auto 0;
-  font-size: 25px;   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#60bad7+0,458ed0+100 */
-  background: #60bad7; /* Old browsers */
-  background: -moz-linear-gradient(top, #60bad7 0%, #458ed0 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #60bad7 0%, #458ed0 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #60bad7 0%, #458ed0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#60bad7', endColorstr='#458ed0', GradientType=0); /* IE6-9 */
-  line-height: 56px;
-  border-radius: 10px;
-}
-.modal-close {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    font-size: 45px;
-    line-height: 25px;
-    cursor: pointer;
-    color: #448dd0;
-    width: 25px;
-    height: 25px;
-}
-
-@media (max-width: 800px) {
-    .modal-wrapper {
-        width: 90%;
-        top: 30px;
-    }
-    .app-item {
-        width: 100%;
-        float: none;
-    }
-    .app-item p {
-        display: none;
-    }
-}
