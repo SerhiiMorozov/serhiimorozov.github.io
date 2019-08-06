@@ -18,11 +18,11 @@
 			}
 			h1 {
 			  font-size: 3em;
-			  margin: 0 0 0.5em;
+			  margin: 0 0 .5em;
 			}
 			p {
 			  font-size: 1.5em;
-			  margin: 0;
+			  margin: 0 0 .5em;
 			}
 		</style>
 	</head>
@@ -30,6 +30,20 @@
 		<div class="container">
 			<h1>Serhii Morozov</h1>
 			<p>Graphic Designer | Web UI/UX Designer & Front-End Developer</p>
+			<form action="mailto:serhiimorozov.pro@gmail.com" method="GET" target="_blank">
+				<h2 class="title">Написать письмо</h2>
+				<div class="field">
+					<label class="label" for="subject">Имя:</label>
+					<input name="subject" id="subject" type="text" class="input" value="Ваше имя">
+				</div>
+				<div class="field">
+					<label class="label" for="body">Сообщение:</label>
+					<textarea class="textarea" name="body" id="body">Ваше сообщение</textarea>
+				</div>
+				<div>
+					<input type="submit" value="Create Email" class="button is-primary">
+				</div>
+			</form>
 		</div>
 	</body>
 </html>
