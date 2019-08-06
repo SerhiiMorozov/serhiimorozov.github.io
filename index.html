@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Serhii Morozov - Graphic Designer | Web UI/UX Designer & Front-End Developer</title>
-    </head>
-    <body>
-    	<h1>Serhii Morozov</h1>
-    	<p>Graphic Designer | Web UI/UX Designer & Front-End Developer</p>
-    </body>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Serhii Morozov - Graphic Designer | Web UI/UX Designer & Front-End Developer</title>
+		<style type="text/css">
+			.wrapper {
+			  display: grid;
+			  grid-template-columns: repeat(4, 1fr);
+			  grid-gap: 10px;
+			  grid-auto-rows: 200px;
+			  grid-template-areas: 
+			    ". a a ."
+			    ". a a .";
+			  background-color: #fff4e6;
+			}
+			.item {
+			  grid-area: a;
+			  align-self: center;
+			  justify-self: center;
+			  background-color: #ffd8a8;
+			  padding: 1em;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="item">
+				<h1>Serhii Morozov</h1>
+				<p>Graphic Designer | Web UI/UX Designer & Front-End Developer</p>
+			</div>
+		</div>
+	</body>
 </html>
