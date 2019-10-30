@@ -32,24 +32,6 @@
         font-size: 2em;
         margin: 0 0 .75em;
       }
-      @media screen and (max-width: 640px) {
-        div {
-          position: relative;
-          margin: 0 auto;
-          top: 0;
-          left: 0;
-          transform: none;
-        }
-        h2 span:first-child {
-          display: block;
-        }
-        h2 span {
-          display: none;
-        }
-        h2 span:last-child {
-          display: block;
-        }
-      }
       p {
         font-size: 1.5em;
         margin: 0 0 .5em;
@@ -66,6 +48,28 @@
       }
       span {
         vertical-align: middle;
+      }
+      @media (max-width: 640px) {
+        body {
+          font-size: .9em;
+        }
+        div {
+          position: relative;
+          margin: 0 auto;
+          padding: 1em;
+          top: 0;
+          left: 0;
+          transform: none;
+        }
+        h2 span:first-child {
+          display: block;
+        }
+        h2 span {
+          display: none;
+        }
+        h2 span:last-child {
+          display: block;
+        }
       }
     </style>
   </head>
