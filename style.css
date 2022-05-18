@@ -7,18 +7,20 @@ body {
   background-color: #202124;
   color: #9aa0a6;
 }
-div {
+.wrapper {
   position: absolute;
-  width: 70%;
-  min-width: 360px;
-  max-width: 960px;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  padding: 2rem;
   text-align: center;
+  width: 70%;
+  min-width: 360px;
+  max-width: 960px;
+  padding: 2rem;
+}
+.wrapper-style {
   background-color: #28292c;
-  border-radius: 8px;
+  border-radius: 1.5rem;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .10), 0 1px 3px 1px rgba(0, 0, 0, .20);
 }
 #user {
@@ -43,17 +45,36 @@ p {
 }
 a {
   display: inline-block;
-  font-size: 1.5rem;
   text-decoration: none;
   color: #8ab4f8;
+}
+.projects a {
   margin: 0 1rem;
 }
-address {
-  margin-top: 1.5rem;
-  font-style: normal;
+.contacts a {
+  margin: 0 0.5rem;
 }
-address span {
+.contacts a span {
   vertical-align: middle;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.projects {
+  margin: 3rem 0;
+}
+
+@media (max-width: 720px) {
+  .projects a {
+    display: block;
+    margin: 1rem 0;
+  }
+  .projects span {
+    display: none;
+  }
+}
+
+address {
+  font-style: normal;
 }
 #linkedin {
   width: 6rem;
