@@ -19,7 +19,7 @@ div {
   text-align: center;
   background-color: #28292c;
   border-radius: 8px;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .60), 0 1px 3px 1px rgba(0, 0, 0, .30);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .10), 0 1px 3px 1px rgba(0, 0, 0, .20);
 }
 #user {
   width: 12rem;
@@ -27,11 +27,13 @@ div {
 }
 h1 {
   font-size: 3rem;
+  font-weight: bold;
   margin: 0 0 .5rem;
   color: #e8eaed;
 }
 h2 {
   font-size: 2rem;
+  font-weight: normal;
   margin: 0 0 1.5rem;
   color: #e8eaed;
 }
