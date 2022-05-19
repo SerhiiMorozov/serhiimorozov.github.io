@@ -87,6 +87,9 @@ a {
 }
 
 @media (max-width: 640px) {
+  .content-wrapper {
+    transform: scale(.8);
+  }
   .projects a {
     display: block;
     margin: 1rem 0;
