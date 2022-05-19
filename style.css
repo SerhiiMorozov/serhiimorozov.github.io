@@ -9,7 +9,6 @@ body {
   min-height: 100vh;
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
-  padding: 0 1rem;
   background-color: #202124;
   color: #9aa0a6;
 }
@@ -19,6 +18,7 @@ body {
   align-items: center;
   max-width: 1400px;
   min-width: 360px;
+  padding: 2rem;
 }
 .portfolio-img {
   /* width: 100%; */
@@ -56,7 +56,7 @@ a {
 .projects a {
   margin: 0 1rem;
 }
-address {
+.contacts {
   font-style: normal;
 }
 .contacts a {
