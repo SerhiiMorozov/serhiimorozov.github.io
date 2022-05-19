@@ -18,32 +18,32 @@ body {
   align-items: center;
   max-width: 1400px;
   min-width: 360px;
-  padding: 2rem;
+  padding: 1.953rem;
 }
 .portfolio-img {
   /* width: 100%; */
   height: auto;
-  border-radius: 1.5rem;
+  border-radius: 1.563rem;
 }
 #user {
-  width: 12rem;
-  margin: 0 0 2rem;
+  width: 11.642rem;
+  margin: 0 0 1.953rem;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 3.052rem;
   font-weight: bold;
-  margin: 0 0 .5rem;
+  margin: 0 0 0.512rem;
   color: #e8eaed;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 1.953rem;
   font-weight: normal;
-  margin: 0 0 1.5rem;
+  margin: 0 0 1.563rem;
   color: #e8eaed;
 }
 p {
-  font-size: 1.5rem;
-  margin: 0 0 .5rem;
+  font-size: 1.563rem;
+  margin: 0 0 0.512rem;
 }
 a {
   display: inline-block;
@@ -51,7 +51,7 @@ a {
   color: #8ab4f8;
 }
 .projects {
-  margin: 3rem 0;
+  margin: 3.052rem 0;
 }
 .projects a {
   margin: 0 1rem;
@@ -60,7 +60,7 @@ a {
   font-style: normal;
 }
 .contacts a {
-  margin: 0 0.5rem;
+  margin: 0 0.512rem;
 }
 .contacts a span {
   vertical-align: middle;
@@ -68,14 +68,14 @@ a {
   font-size: 1.25rem;
 }
 #linkedin {
-  width: 6rem;
+  width: 5.96rem;
   vertical-align: middle;
 }
 #linkedin path {
   fill: #8ab4f8;
 }
 #email {
-  width: 2rem;
+  width: 1.953rem;
   vertical-align: middle;
 }
 #email path, #email line {
@@ -88,7 +88,7 @@ a {
 
 @media (max-width: 640px) {
   .content-wrapper {
-    transform: scale(.8);
+    transform: scale(0.8);
   }
   .projects a {
     display: block;
